@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Taking App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Notes</h2>
+      <ul id="noteList"></ul>
+      <button id="addNoteBtn"><i class="fas fa-plus"></i> Add Note</button>
+    </div>
+    <div class="editor">
+      <textarea id="noteEditor" placeholder="Start writing your note..."></textarea>
+      <div class="editor-actions">
+        <button id="saveNoteBtn"><i class="fas fa-save"></i> Save Note</button>
+        <button id="deleteNoteBtn" disabled><i class="fas fa-trash"></i> Delete Note</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
